@@ -1,6 +1,6 @@
 # SMS Y4 RUPP
 
-RosarioSIS-based Student Information System.
+Student Information System.
 
 ## Requirements
 
