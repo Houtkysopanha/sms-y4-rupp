@@ -1,0 +1,11 @@
+## Begin - Security
+# Block access to web-executable files inside the uploads folder
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteOptions InheritDownBefore
+
+    RewriteRule (?i)\.(php.?|phar|[psx]?html?|xml|svg|js)$ - [F]
+</IfModule>
+#
+## End - Security
